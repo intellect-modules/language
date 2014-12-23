@@ -1,0 +1,27 @@
+{
+	"name": "intellect-language",
+	"description": "Intellect extension to support human languages",
+	"version": "0.0.1",
+	"author": "makesites",
+	"contributors": [
+		{ "name": "Makis Tracend", "email": "makis@makesit.es" }
+	],
+	"homepage": "http://github.com/makesites/intellect",
+	"keywords": ["language", "intellect", "api", "json"],
+	"licenses": [
+		{
+			"type": "Apache license, version 2.0",
+			"url": "http://makesites.org/licenses/APACHE-2.0"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/intellect-modules/language.git"
+	},
+	"engines": { "node": ">=0.8.x" },
+	"main": "index",
+	"bin": { },
+	"dependencies": {
+		"underscore": "*"
+	}
+}
